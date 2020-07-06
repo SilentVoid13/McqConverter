@@ -6,7 +6,7 @@ use mcqconverter_core::{McqConverter, Format, McqConfig};
 
 fn main() {
     let version     = "0.1";
-    let author      = "SilentVoid <silentvoid13@protonmail.com";
+    let author      = "SilentVoid <silentvoid13@protonmail.com>";
     let about       = "A converter from AMC-TXT to GIFT format";
 
     let matches = App::new("amctxt2gift")

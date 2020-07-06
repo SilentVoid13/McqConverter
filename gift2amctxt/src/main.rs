@@ -7,7 +7,7 @@ use clap::{Arg, App};
 
 fn main() {
     let version = "0.1";
-    let author      = "SilentVoid <silentvoid13@protonmail.com";
+    let author      = "SilentVoid <silentvoid13@protonmail.com>";
     let about = "A converter from GIFT to AMC-TXT format";
 
     let matches = App::new("gift2amctxt")
