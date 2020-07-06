@@ -1,0 +1,93 @@
+# AMC-TXT source
+PaperSize: A4
+Lang: FR
+Title: Mon premier questionnaire
+Presentation: Veuillez répondre aux questions ci-dessous du mieux que vous
+pouvez. Les questions marquées d'un [[\multiSymbole{}]] peuvent avoir zéro, une ou
+plusieurs bonnes réponses.
+
+*([Shuffle=0,numquestions=4,group=6] [==[_[*Géographie – QCM 1 : *]_]==] test *( test
+
+*<lines=4> Décrivez la lune.
+-[O]{0} O
+-[P]{1} P
++[V]{2} V
+
+# Testtest
+* Quelle est 
+# a
+la capitale du
+# b 
+Cameroun ?
+# c
+[== Just a title ==]
+??
+[== 2nd title ==]
++ Yaoundé
+# a
+- Douala
+# b
+- Kribi
+# c
+
+** Parmi les nombres suivants, lesquels sont positifs ?
++ 2
+- -2
++ 10
+
+*[ordered,horiz,id=addition] Combien font un plus un ?
+- 0
+- 1
++ 2
+
+*{b=2,m=-1} Quelle est la capitale de la France ?
++ Paris
+- Lille
+-{-1} Ouagadougou
+
+*[ordered=0,horiz=0,columns=2,id=13s,] Quelle est la plus petite région française ?
+- Corse
++ Alsace
+- Haute Normandie
+- Basse Normandie
+
+* Vous connaissez sans doute Frédéric Chopin:
+c'est un compositeur. De quel pays est-il
+originaire ?
++ la Pologne
+- le Vénézuela
+- la Suisse
+
+* Qu'est-ce que le code suivant écrit ?
+[verbatim]
+main( )
+{
+	printf("hello, world\n");
+}
+[/verbatim]
++ [| hello, world |]
+- [| hello |]
+- [| world |]
+
+** Choisissez parmi les expressions suivantes celles
+où le mot en italique est [*un adjectif*].
++ Une balle [_bleue_]
+- Un [_livre_] rose
++ Quelle [_belle_] histoire !
+
+** Quel est le nom de l’oiseau représenté dans l’image ci-dessous ?
+![height=2cm]images/oiseau.png!
++ Un rouge gorge
+- Une pie
+- Un merle
+
+** Quel est le pays représenté sur la carte ci-dessous ?
+!{center}[width=.75\linewidth]images/carte.pdf!
+# a
++ La France
+# b
+- L’Espagne
+# c
+- L’Italie
+
+*)

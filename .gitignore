@@ -1,0 +1,15 @@
+/target
+target/
+
+# Custom Things
+docs/
+RESOURCES.md
+amc.txt
+gift.txt
+test_edge_cases.txt
+test_file.txt
+*.zip
+README.md
+
+# Clion
+.idea/

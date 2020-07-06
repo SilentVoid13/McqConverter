@@ -1,0 +1,53 @@
+$CATEGORY:$course$/Défaut pour TQCM
+
+// question: 2390 name: Q2
+::Q1::Quelle unité contient l'unité arithmétique et logique, ainsi que l'unité de commande{
+=Unité centrale
+~Unité de mémoire centrale
+~Unité de temps Microseconde
+~Unités périphériques
+}
+
+// true/false
+::Q2:: 1+1=2 {T}
+
+// Choix multiple avec rétroaction spécifique pour les bonnes et les mauvaises réponses
+::Q3:: Quelle couleur se trouve entre l'orange et le vert dans le spectre ?
+{=jaune #Bonne réponse; bravo ! ~rouge #Mauvaise réponse, c'est jaune. ~bleu #Mauvaise réponse, c'est jaune.}
+
+// Texte troué
+::Q4:: Deux plus {=deux =2} égalent quatre.
+
+// Appariement
+::Q5:: Quel animal mange quoi ? {=Chat -> Nourriture pour chats =Chien -> Nourriture pour chiens}
+
+// Question à réponse numérique avec marge
+::Q6:: Nommez un chiffre de 1 à 5. {#3:2}
+
+// Question à réponse numérique avec marge (intervalle marqué par des points)
+//::Q7:: Nommez un chiffre de 1 à 5. {#1..5}
+// Lors de l'importation, cette question devient la même que Q5, mais non disponible dans l'interface de questions de Moodle.
+
+// réponses numériques multiples avec points partiels et rétroaction
+::Q8:: En quelle année est né Ulysses S. Grant ? {#
+=1822:0		# Bravo ! Tous les points.
+=%50%1822:2 	# Il est né en 1822. Votre réponse était proche, vous avez la moitié des points.
+}
+
+// Composition
+::Q9:: Comment allez-vous ? {}
+
+// question: 2394 name: Q6
+::Q10::Quels matériels deviennent plus petits, plus rapides, plus fiables, plus conviviaux et moins coûteux.{
+~Evolution du matériel
+~Générations d'ordinateurs
+=Micro-ordinateur
+~Mini-ordinateur
+}
+
+::Q11::Parmi ces personnes, nommez-en deux qui sont enterrées dans la Grant's tomb. {
+~%-100%Personne
+~%50%Grant
+~%50%L'épouse de Grant
+~%-100%Le père de Grant
+}

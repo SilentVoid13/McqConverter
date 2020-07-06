@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+    "amctxt2gift",
+    "gift2amctxt",
+    "mcqconverter_core",
+    "mcqconverter_gui",
+]
+
+[profile.release]
+panic="abort"
