@@ -2,7 +2,7 @@
 
 McqConverter is a [MCQ](https://en.wikipedia.org/wiki/Multiple_choice) format converter written in pure Rust.
 
-My code is surely not perfect, do not hesitate to make pull requests, to fill an issue, or to contact me for any problems / code enhancement suggestion at [silentvoid13@protonmail.com](mailto:silentvoid13@protonmail.com).
+My code is surely not perfect, do not hesitate to make a [pull request](https://github.com/SilentVoid13/McqConverter/pulls), to fill an [issue](https://github.com/SilentVoid13/McqConverter/issues), or to contact me for any problem / code enhancement suggestion at [silentvoid13@protonmail.com](mailto:silentvoid13@protonmail.com).
 
 ## Supported Formats
 
