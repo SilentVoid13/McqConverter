@@ -11,7 +11,7 @@ McqConverter currently supports the following formats :
 - [AMC-TXT](https://www.auto-multiple-choice.net/auto-multiple-choice.en/AMC-TXT.shtml)
 - [GIFT](http://docs.moodle.org/en/GIFT)
 
-You can suggest me a format that you want me to add.
+You can suggest me a format that you want me to add by filling an [issue](https://github.com/SilentVoid13/McqConverter/issues).
 
 ## Usage
 
@@ -67,7 +67,7 @@ ARGS:
 
 ### mcqconverter_core
 
-This is the core library used to make all the conversions used by all the other projects. This project is not useful for users.
+This is the core library used to perform all the conversions. It is used by all the other projects. This project is not useful for users.
 
 ## Binaries
 
@@ -83,7 +83,7 @@ This application has only been tested on Linux and Windows 64-bit.
 
 ## Contributing
 
-Feel free to contribute.
+Feel free to contribute. You can make a [pull request](https://github.com/SilentVoid13/McqConverter/pulls) to suggest any change you'd like to make.
 
 ## License
 
